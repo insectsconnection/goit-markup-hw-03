@@ -1,3 +1,9 @@
+header{
+    width: 1440px;
+    height: 72px;
+    border: 1px;
+    border-bottom: 1px solid #E7E9FC
+}
 h1 {
     font-family: Roboto;
     font-size: 56px;
@@ -8,8 +14,12 @@ h1 {
 
 }
 
-.logo-web {
-    color: #4D5AE5;
+.logo-studio,
+.logo-web{
+    display: inline-block;
+    text-align: center;
+    width: 44px;
+    height: 21px;
     text-decoration: none;
     font-family: Raleway;
     font-size: 18px;
@@ -17,17 +27,16 @@ h1 {
     line-height: 21px;
     letter-spacing: 0.03em;
     text-align: left;
+    
+ }
+.logo-web {
+    color: #4D5AE5;
+    
 }
 
 .logo-studio {
     color: #2E2F42;
-    text-decoration: none;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-align: left;
+
 }
 
 nav {
@@ -39,7 +48,10 @@ nav {
     text-align: left;
     text-decoration: none;
 }
+.nav-menu{
+    display: flex;
 
+}
 ul {
     list-style: none;
 }
@@ -56,6 +68,7 @@ a:hover {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-decoration: none;
+    float: right;
 }
 
 .hero {
@@ -116,13 +129,14 @@ p {
     left: 156px;
     border: #434455;
     display: flex;
+    padding-left: 10px;
 }
 .section-item-gallery {
     width: 1128px;
     height: 412px;
     top: 1016px;
     left: 156px;
-
+padding: 10px;
 }
 .section-item-team{
     width: 1440px;
