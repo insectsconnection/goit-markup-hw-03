@@ -112,6 +112,9 @@ p {
     color: #434455;
     width: 264px;
     height: 72px;
+}
+
+body{
     /* styleName: Body; */
     font-family: Roboto;
     font-size: 16px;
