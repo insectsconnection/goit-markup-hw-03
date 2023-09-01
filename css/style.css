@@ -13,7 +13,12 @@ h1 {
     text-align: center;
 
 }
+h2{
 
+}
+ h3{
+    
+ }
 .logo-studio,
 .logo-web{
     display: inline-block;
@@ -48,12 +53,15 @@ nav {
     text-align: left;
     text-decoration: none;
 }
-.nav-menu{
+.nav-menu-link{
     display: flex;
 
 }
 ul {
     list-style: none;
+    text-decoration: none;
+    float: left;
+    text-align: center;
 }
 
 a:hover {
@@ -114,7 +122,7 @@ p {
     height: 72px;
 }
 
-body{
+{
     /* styleName: Body; */
     font-family: Roboto;
     font-size: 16px;
@@ -144,7 +152,7 @@ body{
 .section-item-team{
     width: 1440px;
     height: 732px;
-    top: 1548px;    
+       
 
 }
 footer {
