@@ -34,6 +34,8 @@ header{
     color: #4D5AE5;
     text-decoration:none;
     padding-left: 120px;
+    padding:14px 16px;
+    text-align: center;
 }
 
 .logo-studio {
@@ -104,9 +106,7 @@ a:hover {
     padding-right: 120px;
     text-decoration: none;
 }
-.hero{
-    padding-bottom: 100px;
-}
+
 
 h1 {
     position: absolute;
@@ -162,6 +162,7 @@ h3{
     width: 1440px;
     height: 600px;
     top: 72px;
+    padding: 100px;
 }
 
 .order-button {
@@ -190,7 +191,7 @@ h3{
     height: 104px;
     border: #434455;
     color: #2E2F42;
-    padding-bottom:100px;
+    padding-left: 100px;
 }
 
 
@@ -199,8 +200,7 @@ h3{
     left: 156px;
     text-align: left;
     display: flex;
-    padding: 80px 80px 100px 80px;
-    padding-bottom:100px;
+   
 }
 
 .section-features-item{
@@ -233,7 +233,7 @@ h3{
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
-    padding: 10px;
+    
 }
 
 .section-items-gallery {
@@ -241,17 +241,19 @@ h3{
     border: 1px;
     margin: 10px;
     border: 1px solid #E7E9FC;
-    display: flex;
+   
     padding-top: 10px;
     background: #E7E9FC;
 }
+
 .gallery{
-    width: Hug (360px);
-    height: Hug (300px);
-    top: 1128px;
-    width: 1128px;
-    height: 412px;
-    top: 1016px;
+    width: 360px;
+    height: 300px;
+    border: 1px;
+    background: #E7E9FC;
+    border: 1px solid #E7E9FC;
+    display: flex;
+
 }
 
 
@@ -326,7 +328,7 @@ footer .text-studio{
     top: 168px;
     left: 427px;
     gap: 24px;
-    margin: 50px 380px;
+ 
 }
 
 .filter-btn{
