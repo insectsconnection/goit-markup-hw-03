@@ -350,7 +350,10 @@ footer {
     
 }
 /* Task 3 */
-.social-media-link{
+.social-icon{
+    display: flex;
+}
+.social-icon-link{
     display: flex;
 }
 .section-filter {
