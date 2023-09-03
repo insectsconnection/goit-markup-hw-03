@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    
+    box-sizing: border-box;
 }
 
 header{
@@ -56,6 +56,7 @@ li{
     list-style: none;
     padding:14px 16px;
     text-align: center;
+    text-decoration: none;
     
 }
 
@@ -63,7 +64,7 @@ a:hover {
     color: blue;
 }
 
-nav-menu-link a{
+.nav-menu-link a{
   font-size: 17px;
   display: inline-block;
   margin: 0px;
@@ -86,11 +87,11 @@ nav-menu-link a{
 .contacts{
     width: 67px;
     height: 24px;
-    text-decoration: n;
+    text-decoration: none;
 }
 
-.info-link,
-.tel-link {
+.address-info-link,
+.address-tel-link {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -101,6 +102,7 @@ nav-menu-link a{
     padding: 14px 16px;
     margin:0px;
     padding-right: 120px;
+    text-decoration: none;
 }
 .hero{
     padding-bottom: 100px;
@@ -238,10 +240,10 @@ h3{
     width: 1440px;
     border: 1px;
     margin: 10px;
-    border: 1px solid #E7E9FC
+    border: 1px solid #E7E9FC;
     display: flex;
     padding-top: 10px;
-    background: #E7E9FC
+    background: #E7E9FC;
 }
 .gallery{
     width: Hug (360px);
@@ -264,7 +266,7 @@ h3{
     width: Hug (264px);
     height: Hug (240px);
     top: 1128px;
-    border: 1px solid #E7E9FC
+    border: 1px solid #E7E9FC;
     padding-top: 10px;
     
 }
@@ -324,6 +326,7 @@ footer .text-studio{
     top: 168px;
     left: 427px;
     gap: 24px;
+    margin: 50px 380px;
 }
 
 .filter-btn{
@@ -336,10 +339,9 @@ footer .text-studio{
     linear-gradient(0deg, #E7E9FC, #E7E9FC);
     border: 1px solid #E7E9FC;
     
+    
 }
 .filter-btn :active{
     background: #404BBF;
-
-
 }
 
